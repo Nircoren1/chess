@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+h1,h2,p {
+    color: white;
+}
+
+.black {
+    background-color: gray;
+}
+.white {
+    background-color: rgb(236, 245, 245);
+}
+
+.selected {
+    outline: 5px solid orange;
+}
+
+.mark {
+    background-color: lightpink;
+}
+
+.center {
+    margin: auto;
+}
+.game-board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.whiteScore{
+}
+
+
+.blackScore{
+    
+
+}
+
+.scoreDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 40px;
+    margin:auto
+}
